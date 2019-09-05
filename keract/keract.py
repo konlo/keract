@@ -1,6 +1,6 @@
 import keras.backend as K
 from keras.models import Model
-
+%matplotlib inline
 
 def _evaluate(model: Model, nodes_to_evaluate, x, y=None):
     if not model._is_compiled:
