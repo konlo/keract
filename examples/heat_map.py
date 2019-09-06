@@ -2,7 +2,7 @@ from keras.applications.vgg16 import VGG16
 from keras.applications.vgg16 import decode_predictions
 from keras.applications.vgg16 import preprocess_input
 from keras.preprocessing.image import img_to_array
-%matplotlib inline
+#%matplotlib inline
 model = VGG16()
 
 from PIL import Image
